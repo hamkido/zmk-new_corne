@@ -35,21 +35,32 @@
             delay-ms = <0>;                   // 10
         };
     };
-rgb_encoder: rgb_encoder {
-            compatible = "zmk,behavior-sensor-rotate";
-            label = "RGB_ENCODER";
-            #sensor-binding-cells = <0>;
-            bindings = <&rgb_ug RGB_BRI>, <&rgb_ug RGB_BRD>;
-        };
 
-        scroll_encoder: scroll_encoder {
-            compatible = "zmk,behavior-sensor-rotate";
-            #sensor-binding-cells = <0>;
-            bindings =  <&msc SCRL_DOWN>,<&msc SCRL_UP>;
+    rgb_encoder: rgb_encoder {
+        compatible = "zmk,behavior-sensor-rotate";
+        label = "RGB_ENCODER";
+        #sensor-binding-cells = <0>;
+        bindings = <&rgb_ug RGB_BRI>, <&rgb_ug RGB_BRD>;
+    };
 
-            tap-ms = <30>;
+    scroll_encoder: scroll_encoder {
+        compatible = "zmk,behavior-sensor-rotate";
+        #sensor-binding-cells = <0>;
+        bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
+
+        tap-ms = <30>;
+    };
+
+    combos {
+        compatible = "zmk,combos";
+
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <1 0>;
+            layers = <0>;
         };
-    
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -64,11 +75,11 @@ rgb_encoder: rgb_encoder {
             //                                                      enter
 
             bindings = <
-&kp TAB    &kp Q  &kp W      &kp E     &kp R  &kp T          &kp UP_ARROW     &kp Y        &kp U  &kp I      &kp O    &kp P     &kp BSPC
-&td0       &kp A  &kp S      &kp D     &kp F  &kp G          &kp DOWN_ARROW   &kp H        &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LCTRL  &kp Z  &kp X      &kp C     &kp V  &kp B          &kp LEFT_ARROW   &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
-                  &kp SPACE  &kp LGUI  &mo 1  &lt 3 SPACE    &kp RIGHT_ARROW  &lt 3 ENTER  &mo 2  &kp RALT
-                                                             &kp ENTER
+&mt LC(RIGHT_BRACKET) TAB  &kp Q  &kp W      &kp E         &kp R      &kp T               &kp UP_ARROW     &kp Y        &kp U  &kp I      &kp O    &kp P     &kp BSPC
+&td0                       &kp A  &kp S      &kp D         &kp F      &kp G               &kp DOWN_ARROW   &kp H        &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LCTRL                  &kp Z  &kp X      &kp C         &kp V      &kp B               &kp LEFT_ARROW   &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
+                                  &kp SPACE  &kp LEFT_ALT  &kp SPACE  &kp LEFT_COMMAND    &kp RIGHT_ARROW  &lt 3 ENTER  &mo 2  &tog 1
+                                                                                          &kp ENTER
             >;
 
             label = "QWERTY";
@@ -85,11 +96,11 @@ rgb_encoder: rgb_encoder {
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp N1           &kp N2          &kp N3             &kp N4        &kp N5             &mmv MOVE_UP     &kp N6           &kp N7           &kp N8           &kp N9           &kp N0    &kp BSPC
-&trans  &bt BT_CLR_ALL   &bt BT_SEL 0    &bt BT_SEL 1       &bt BT_SEL 2  &bt BT_SEL 3       &mmv MOVE_DOWN   &kp LEFT         &kp DOWN         &kp UP           &kp RIGHT        &kp HOME  &kp PG_UP
-&trans  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &ext_power EP_OFF  &trans        &rgb_ug RGB_EFF    &mmv MOVE_LEFT   &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp END   &kp PG_DN
-                         &kp C_MUTE      &trans             &trans        &trans             &mmv MOVE_RIGHT  &kp INS          &kp DEL          &trans
-                                                                                             &mkp LCLK
+&trans      &kp N1           &kp N2          &kp N3             &kp N4        &kp N5             &mmv MOVE_UP     &kp N6           &kp N7           &kp N8           &kp N9           &kp N0    &kp BSPC
+&bt BT_CLR  &bt BT_SEL 0     &bt BT_SEL 1    &bt BT_SEL 2       &bt BT_SEL 3  &bt BT_SEL 4       &mmv MOVE_DOWN   &kp LEFT         &kp DOWN         &kp UP           &kp RIGHT        &kp HOME  &kp PG_UP
+&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &ext_power EP_OFF  &trans        &rgb_ug RGB_EFF    &mmv MOVE_LEFT   &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp END   &kp PG_DN
+                             &kp C_MUTE      &trans             &trans        &trans             &mmv MOVE_RIGHT  &kp INS          &kp DEL          &trans
+                                                                                                 &mkp LCLK
             >;
 
             label = "NUMBER";
