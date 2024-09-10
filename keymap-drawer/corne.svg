@@ -288,7 +288,7 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:keyboard-tab"/>
-<text x="0" y="24" class="key hold">Ctl+ ]</text>
+<text x="0" y="24" class="key hold">Ctl+ [</text>
 </g>
 <g transform="translate(84, 77)" class="key keypos-1">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -537,6 +537,11 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key enter"/>
 <use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="-9" y="-13" height="18" width="18.0" class="key enter tap glyph mdi:keyboard-return"/>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="42" y="64" width="28" height="26" class="combo"/>
+<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="47" y="68" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
+<text x="56" y="88" class="combo hold">Ctl+ [</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 405)" class="layer-lower">
@@ -702,14 +707,14 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-0.6em">RGB</tspan><tspan x="0" dy="1.2em">OFF</tspan>
+<tspan x="0" dy="-0.6em">Alt+</tspan><tspan x="0" dy="1.2em">1</tspan>
 </text>
 </g>
 <g transform="translate(140, 168)" class="key keypos-28">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-0.6em">RGB</tspan><tspan x="0" dy="1.2em">ON</tspan>
+<tspan x="0" dy="-0.6em">Alt+</tspan><tspan x="0" dy="1.2em">2</tspan>
 </text>
 </g>
 <g transform="translate(196, 161)" class="key keypos-29">
@@ -822,10 +827,6 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <use href="#mdi:mouse-left-click-outline" xlink:href="#mdi:mouse-left-click-outline" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:mouse-left-click-outline"/>
-</g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="42" y="64" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="47" y="68" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
 </g>
 </g>
 </g>

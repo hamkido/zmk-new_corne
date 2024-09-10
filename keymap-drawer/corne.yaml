@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
 layers:
   default:
-  - {t: '$$mdi:keyboard-tab$$', h: 'Ctl+ ]'}
+  - {t: '$$mdi:keyboard-tab$$', h: 'Ctl+ ['}
   - Q
   - W
   - E
@@ -77,8 +77,8 @@ layers:
   - HOME
   - PG UP
   - {t: '$$mdi:transfer$$', type: trans}
-  - RGB OFF
-  - RGB ON
+  - Alt+ 1
+  - Alt+ 2
   - EP OFF
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB EFF
@@ -198,5 +198,5 @@ layers:
   - $$mdi:mouse-left-click-outline$$
 combos:
 - p: [1, 0]
-  k: $$mdi:keyboard-esc$$
-  l: [lower]
+  k: {t: '$$mdi:keyboard-esc$$', h: 'Ctl+ ['}
+  l: [default]
