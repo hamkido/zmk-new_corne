@@ -495,12 +495,12 @@ rect.held, rect.combo.held {
 <g transform="translate(252, 252)" class="key keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:apple-keyboard-option"/>
+<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:keyboard-space"/>
 </g>
 <g transform="translate(314, 276) rotate(30.0)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:keyboard-space"/>
+<use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:apple-keyboard-option"/>
 </g>
 <g transform="translate(382, 299) rotate(30.0)" class="key keypos-42">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key side"/>
@@ -541,6 +541,14 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="42" y="64" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="47" y="68" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
 <text x="56" y="88" class="combo hold">Ctl+ [</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="854" y="64" width="28" height="26" class="combo"/>
+<text x="868" y="77" class="combo tap">POWER</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="854" y="120" width="28" height="26" class="combo"/>
+<text x="868" y="133" class="combo tap">LOCK</text>
 </g>
 </g>
 </g>
