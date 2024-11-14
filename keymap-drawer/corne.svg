@@ -528,8 +528,7 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <a href="#lower">
 <text x="0" y="-4" class="key tap layer-activator">lower</text>
-</a><text x="0" y="24" class="key hold">toggle</text>
-</g>
+</a></g>
 <g transform="translate(462, 84)" class="key enter keypos-47">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key enter side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key enter"/>
@@ -552,8 +551,7 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="627" y="251" width="28" height="26" class="combo"/>
 <a href="#blt-device">
 <text x="641" y="264" class="combo tap layer-activator"><tspan style="font-size: 60%">blt-device</tspan></text>
-</a><text x="641" y="275" class="combo hold">toggle</text>
-</g>
+</a></g>
 </g>
 </g>
 <g transform="translate(40, 405)" class="layer-lower">
@@ -824,10 +822,9 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:backspace-reverse-outline"/>
 </g>
-<g transform="translate(672, 252)" class="key trans keypos-46">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(672, 252)" class="key held keypos-46">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key held"/>
 </g>
 <g transform="translate(462, 84)" class="key keypos-47">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -838,8 +835,7 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="627" y="251" width="28" height="26" class="combo"/>
 <a href="#blt-device">
 <text x="641" y="264" class="combo tap layer-activator"><tspan style="font-size: 60%">blt-device</tspan></text>
-</a><text x="641" y="275" class="combo hold">toggle</text>
-</g>
+</a></g>
 </g>
 </g>
 <g transform="translate(40, 811)" class="layer-raise">
@@ -1106,8 +1102,7 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="627" y="251" width="28" height="26" class="combo"/>
 <a href="#blt-device">
 <text x="641" y="264" class="combo tap layer-activator"><tspan style="font-size: 60%">blt-device</tspan></text>
-</a><text x="641" y="275" class="combo hold">toggle</text>
-</g>
+</a></g>
 </g>
 </g>
 <g transform="translate(40, 1216)" class="layer-3">
@@ -1366,8 +1361,7 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="627" y="251" width="28" height="26" class="combo"/>
 <a href="#blt-device">
 <text x="641" y="264" class="combo tap layer-activator"><tspan style="font-size: 60%">blt-device</tspan></text>
-</a><text x="641" y="275" class="combo hold">toggle</text>
-</g>
+</a></g>
 </g>
 </g>
 <g transform="translate(40, 1622)" class="layer-blt-device">
@@ -1604,15 +1598,13 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-38" width="40" height="68" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g transform="translate(610, 276) rotate(-30.0)" class="key trans keypos-45">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(610, 276) rotate(-30.0)" class="key held keypos-45">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key held"/>
 </g>
-<g transform="translate(672, 252)" class="key trans keypos-46">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(672, 252)" class="key held keypos-46">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key held"/>
 </g>
 <g transform="translate(462, 84)" class="key trans keypos-47">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -1623,8 +1615,7 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="627" y="251" width="28" height="26" class="combo"/>
 <a href="#blt-device">
 <text x="641" y="264" class="combo tap layer-activator"><tspan style="font-size: 60%">blt-device</tspan></text>
-</a><text x="641" y="275" class="combo hold">toggle</text>
-</g>
+</a></g>
 </g>
 </g>
 </svg>

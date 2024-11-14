@@ -47,7 +47,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:keyboard-return$$', h: '3'}
   - raise
-  - {t: lower, h: toggle}
+  - lower
   - {t: '$$mdi:keyboard-return$$', type: enter}
   lower:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -96,7 +96,7 @@ layers:
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - INS
   - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - $$mdi:mouse-left-click-outline$$
   raise:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -242,8 +242,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [1, 0]
@@ -256,4 +256,4 @@ combos:
   k: '|'
   l: [default]
 - p: [45, 46]
-  k: {t: blt-device, h: toggle}
+  k: blt-device
