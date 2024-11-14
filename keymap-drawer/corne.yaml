@@ -1,4 +1,4 @@
-layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
+layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
 layers:
   default:
   - {t: '$$mdi:keyboard-tab$$', h: 'Ctl+ ['}
@@ -38,7 +38,7 @@ layers:
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: /, h: lower, s: '?'}
+  - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-option$$
@@ -87,7 +87,7 @@ layers:
   - RGB SPI
   - RGB BRI
   - RGB BRD
-  - {t: END, type: held}
+  - END
   - PG DN
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
@@ -201,8 +201,8 @@ combos:
   k: {t: '$$mdi:keyboard-esc$$', h: 'Ctl+ ['}
   l: [default]
 - p: [11, 12]
-  k: POWER
+  k: '~'
   l: [default]
 - p: [24, 25]
-  k: LOCK
+  k: '|'
   l: [default]

@@ -478,9 +478,7 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">/</text>
-<a href="#lower">
-<text x="0" y="24" class="key hold layer-activator">lower</text>
-</a><text x="0" y="-24" class="key shifted">?</text>
+<text x="0" y="-24" class="key shifted">?</text>
 </g>
 <g transform="translate(896, 189)" class="key keypos-38">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -544,11 +542,11 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="854" y="64" width="28" height="26" class="combo"/>
-<text x="868" y="77" class="combo tap">POWER</text>
+<text x="868" y="77" class="combo tap">~</text>
 </g>
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="854" y="120" width="28" height="26" class="combo"/>
-<text x="868" y="133" class="combo tap">LOCK</text>
+<text x="868" y="133" class="combo tap">|</text>
 </g>
 </g>
 </g>
@@ -778,10 +776,10 @@ rect.held, rect.combo.held {
 <tspan x="0" dy="-0.6em">RGB</tspan><tspan x="0" dy="1.2em">BRD</tspan>
 </text>
 </g>
-<g transform="translate(840, 189)" class="key held keypos-37">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key held"/>
-<text x="0" y="-4" class="key held tap">END</text>
+<g transform="translate(840, 189)" class="key keypos-37">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">END</text>
 </g>
 <g transform="translate(896, 189)" class="key keypos-38">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
