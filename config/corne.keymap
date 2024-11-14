@@ -61,13 +61,13 @@
         };
 
         power {
-            bindings = <&kp K_POWER>;
+            bindings = <&kp TILDE>;
             key-positions = <11 12>;
             layers = <0>;
         };
 
         lock {
-            bindings = <&kp K_LOCK>;
+            bindings = <&kp PIPE>;
             key-positions = <24 25>;
             layers = <0>;
         };
@@ -87,10 +87,10 @@
             //                                                      enter
 
             bindings = <
-&mt LC(LEFT_BRACKET) TAB  &kp Q  &kp W      &kp E         &kp R      &kp T               &kp UP_ARROW     &kp Y        &kp U  &kp I      &kp O    &kp P        &kp BSPC
-&kp LCTRL                 &kp A  &kp S      &kp D         &kp F      &kp G               &kp DOWN_ARROW   &kp H        &kp J  &kp K      &kp L    &kp SEMI     &kp SQT
-&kp LEFT_SHIFT            &kp Z  &kp X      &kp C         &kp V      &kp B               &kp LEFT_ARROW   &kp N        &kp M  &kp COMMA  &kp DOT  &lt 1 SLASH  &kp RIGHT_SHIFT
-                                 &kp SPACE  &kp LEFT_ALT  &kp SPACE  &kp LEFT_COMMAND    &kp RIGHT_ARROW  &lt 3 ENTER  &mo 2  &tog 1
+&mt LC(LEFT_BRACKET) TAB  &kp Q  &kp W      &kp E         &kp R      &kp T               &kp UP_ARROW     &kp Y        &kp U  &kp I      &kp O    &kp P      &kp BSPC
+&kp LCTRL                 &kp A  &kp S      &kp D         &kp F      &kp G               &kp DOWN_ARROW   &kp H        &kp J  &kp K      &kp L    &kp SEMI   &kp SQT
+&kp LEFT_SHIFT            &kp Z  &kp X      &kp C         &kp V      &kp B               &kp LEFT_ARROW   &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH  &kp RIGHT_SHIFT
+                                 &kp SPACE  &kp LEFT_ALT  &kp SPACE  &kp LEFT_COMMAND    &kp RIGHT_ARROW  &lt 3 ENTER  &mo 2  &to 1
                                                                                          &kp ENTER
             >;
 
