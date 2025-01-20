@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
 layers:
-  default:
-  - {t: '$$mdi:keyboard-tab$$', h: 'Ctl+ ['}
+  QWERTY:
+  - {t: '$$mdi:keyboard-tab$$', h: 'Ctl+['}
   - Q
   - W
   - E
@@ -45,11 +45,11 @@ layers:
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:keyboard-return$$', h: '3'}
-  - raise
-  - lower
+  - {t: '$$mdi:keyboard-return$$', h: FN}
+  - SYMBOL
+  - NUMBER
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  lower:
+  NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -77,8 +77,8 @@ layers:
   - HOME
   - PG UP
   - {t: '$$mdi:transfer$$', type: trans}
-  - Alt+ 1
-  - Alt+ 2
+  - Alt+1
+  - Alt+2
   - EP OFF
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB EFF
@@ -98,7 +98,7 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - {type: held}
   - $$mdi:mouse-left-click-outline$$
-  raise:
+  SYMBOL:
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'
   - '@'
@@ -147,7 +147,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
-  '3':
+  FN:
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
   - F2
@@ -209,7 +209,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:bluetooth-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
@@ -247,13 +247,13 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [1, 0]
-  k: {t: '$$mdi:keyboard-esc$$', h: 'Ctl+ ['}
-  l: [default]
+  k: {t: '$$mdi:keyboard-esc$$', h: 'Ctl+['}
+  l: [QWERTY]
 - p: [11, 12]
   k: '~'
-  l: [default]
+  l: [QWERTY]
 - p: [24, 25]
   k: '|'
-  l: [default]
+  l: [QWERTY]
 - p: [45, 46]
   k: blt-device
